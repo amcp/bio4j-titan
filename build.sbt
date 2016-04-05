@@ -5,13 +5,15 @@ name          := "bio4j-titan"
 description   := "Titan implementation of the Bio4j model"
 javaVersion   := "1.8"
 
+resolvers += "jitpack" at "https://jitpack.io"
+
 libraryDependencies ++= Seq(
-  "bio4j"                   % "bio4j"             % "0.12.0",
-  "bio4j"                   % "angulillos-titan"  % "0.3.0",
-  "com.thinkaurelius.titan" % "titan-berkeleyje"  % "0.5.4",
+  "bio4j"           % "bio4j"                         % "0.13.0-SNAPSHOT",
+  "bio4j"           % "angulillos-titan"              % "0.4.0-SNAPSHOT",
+  "jp.classmethod"  % "tupl-titan100-storage-backend" % "1.0.1",
   // test deps
-  "junit"           %   "junit"     % "3.8.1" % "test",
-  "org.scalatest"   %%  "scalatest" % "2.2.5" % "test"
+  "junit"           %   "junit"                       % "3.8.1" % "test",
+  "org.scalatest"   %%  "scalatest"                   % "2.2.5" % "test"
 )
 
 dependencyOverrides ++= Set(

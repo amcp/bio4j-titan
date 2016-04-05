@@ -39,3 +39,4 @@ bio4j_metrics/
 # EnzymeDB data import
 ImportEnzymeDB.log
 ImportEnzymeDBStats.txt
+/bin/

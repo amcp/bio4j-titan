@@ -16,15 +16,12 @@
   */
 package com.bio4j.titan.model.uniref.programs;
 
-import com.bio4j.model.uniref.UniRefGraph;
 import com.bio4j.model.uniref.programs.ImportUniRef;
 import com.bio4j.titan.model.uniref.TitanUniRefGraph;
 import com.bio4j.titan.util.DefaultTitanGraph;
 import com.ohnosequences.util.Executable;
 import com.thinkaurelius.titan.core.*;
 import com.thinkaurelius.titan.core.schema.*;
-import org.apache.commons.configuration.BaseConfiguration;
-import org.apache.commons.configuration.Configuration;
 
 
 import java.util.ArrayList;
